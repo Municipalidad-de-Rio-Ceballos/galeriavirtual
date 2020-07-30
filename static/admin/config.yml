@@ -1,5 +1,9 @@
 backend: # Set up your backend
     name: github
+    branch: master
+    repo: Municipalidad-de-Rio-Ceballos/galeriavirtual
+    base_url: https://api.netlify.com
+    auth_endpoint: auth
 
 local_backend: true # Optional if you want to use the local proxy mode
 
